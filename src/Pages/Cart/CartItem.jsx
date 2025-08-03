@@ -11,7 +11,7 @@ function CartItem(props) {
   return (
     <div className="cartItem">
       <div class="card">
-      <img src={productImage} />
+      <img src={productImage} alt="prodIma"/>
       <div className="description">
         <p>
           <b>{productName}</b>

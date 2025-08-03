@@ -4,7 +4,7 @@ import { ShopContext } from "../../Context/Shop-Context";
 import "../../Styles/Product.css"; 
 
 export const Product = (props) => {
-  const { id, productName, price, productImage, size, color } = props.data;
+  const { id, price, productImage, size, color } = props.data;
   const [selectSize, setSelectSize] = useState('XS');
   const [selectColor, setSelectColor] = useState('Black');
   const { addToCart, cartItems } = useContext(ShopContext);
