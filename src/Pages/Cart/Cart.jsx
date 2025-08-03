@@ -23,7 +23,6 @@ function Cart(){
           if (cartItems[product.id] !== 0) {
             return <CartItem data={product} selectSize={cartItems.selectSize} selectColor={cartItems.selectColor} />;
           }
-          return <CartItem />
         })}
       </div>
 

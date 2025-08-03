@@ -1,0 +1,38 @@
+.divAboutUs{
+    margin: auto;
+    width: 33%;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.divAboutUs, p{
+    font-size: 16px;
+}
+
+.imageAboutUs{
+    position: relative;
+    float: right;
+    margin-top: 60px;
+}
+
+.informationUs{
+    margin-bottom: 30%;
+}
+
+.ourGoals{
+    position: absolute;
+    width: 33%;
+    line-height: 1.8;
+    margin-left: 5%;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.footer { 
+    padding: 30px;
+    position: absolute; 
+    left: 0; 
+    z-index: 10;
+    color: #fff;
+}
+

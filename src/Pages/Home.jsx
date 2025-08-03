@@ -61,7 +61,7 @@ export default function HomePage() {
         </div>
 
       <section className="max-w-3xl mx-auto p-10">
-        <h2 className="text-2xl font-semibold mb-4">Sobre Nosotros</h2>
+        <h2 className="text-2xl font-semibold mb-4">About us</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar,
           purus at pretium laoreet, erat justo ultrices massa, nec feugiat sem velit non
@@ -70,7 +70,7 @@ export default function HomePage() {
       </section>
 
       <footer className="text-center text-gray-600 py-6 border-t border-gray-700">
-        &copy; 2025 Nombre de la Empresa. Todos los derechos reservados.
+        &copy; 2025 © Koala T-shirt. All rights reserved.
       </footer>
     </div>
   );

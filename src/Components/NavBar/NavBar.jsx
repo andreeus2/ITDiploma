@@ -14,7 +14,7 @@ function NavBar() {
       <div className="links">
         <Link to='/Products'>Products</Link>
         <Link to='/Cart'>Shop</Link>
-        <Link to='/About us'>About us</Link>
+        <Link to='/aboutUs'>About us</Link>
         <Link to='/Contact'>Contact</Link>
       </div>
     </div>

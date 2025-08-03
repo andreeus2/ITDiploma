@@ -6,6 +6,7 @@ import Cart from './Pages/Cart/Cart';
 import Admin from './Root/Admi';
 import HomePage from './Pages/Home';
 import PaymentForm from './Components/Payment/PaymentForm';
+import { AboutUs } from './Pages/AboutUs';
 
 
 const Main=() =>{
@@ -21,6 +22,7 @@ const Main=() =>{
           <Route path="/admin"  element={<Admin />}/>
           <Route path="/Products"  element={<Shop />}/>
           <Route path="/Checkout"  element={<PaymentForm />}/>
+          <Route path="/aboutUs"  element={<AboutUs />}/>
         </Routes>
       </Router>
     </ShopContextProvider>
